@@ -441,8 +441,8 @@ export default function Page() {
 
 
 
-      <section>
-        <section className="relative  overflow-hidden mt-10">
+      <section className="">
+        <section className="relative  overflow-hidden mt-10 ">
           {/* Blue Crescent Shape (Halo) */}
 
           {/* Content */}
@@ -776,10 +776,7 @@ export default function Page() {
                   alt=""
                 /></div>
               <div className="post-content p-4">
-                <div className="meta text-sm text-gray-500 mb-2">
-                  <span className="post-date">جمعه، 28شهریور403</span>
-                  <span className="post-author"> / ادمین</span>
-                </div>
+                
                 <h3 className="post-title text-lg font-semibold text-gray-800 mb-2">
                   شرایط بیمار قبل از آزمایش سیتولوژی ادرار
                 </h3>

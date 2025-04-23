@@ -168,7 +168,7 @@ export default function RootLayout({
           {/* بخش فوتر */}
           <footer className="bg-white py-12">
             <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8 sm:items-center">
                 {/* بخش اطلاعات تماس */}
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
@@ -557,17 +557,14 @@ export default function RootLayout({
           </footer>
           {/* بخش کپی‌رایت */}
           <>
-
             <div className="bg-blue-600 text-white py-4 ">
               <div className="container mx-auto px-4 text-center">
-                <p>دکتر گلشاه – 2024 | کلیه حقوق محفوظ می‌باشد</p>
+                <p>پارس طب  – 2024 | کلیه حقوق محفوظ می‌باشد</p>
               </div>
             </div>
           </>
         </>
-
       </body>
-
     </html>
   );
 }
